@@ -4,7 +4,7 @@ import json
 def lambda_handler(event, context):
     
     if(event['session']['application']['applicationId'] != 
-        "amzn1.ask.skill.c41c9e71-ae85-4da2-b8dd-d96d463db1d2"):
+        "amzn1.ask.skill.c41c9e71-xxxx-xxxx-xxxx-d96d463db1d2"):
         raise ValueError("Invalid Application ID")
     if event['session']['new']:
     	on_session_started({"requestId":event["request"]["requestId"]}, event['session'])
