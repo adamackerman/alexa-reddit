@@ -1,0 +1,38 @@
+{
+  "intents": [
+    {
+      "intent":"ReadFrontPage"
+    },
+    {
+      "intent":"ReadCSCareerQuestions"
+    },
+    {
+      "intent":"Read",
+      "slots": [
+        {
+          "name": "Page",
+          "type": "PAGE_ENTRY"
+        }
+      ]
+    },
+    {
+      "intent":"ReadComments",
+      "slots": [
+      	{
+      	  "name": "Comment",
+      	  "type": "COMMENT"
+    	}
+      ]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+    
+  ]
+}
